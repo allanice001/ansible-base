@@ -4,6 +4,9 @@ galaxy_info:
   description: Simple base providing git, pip, wheel, virtualenv, various utils.
   license: BSD
   min_ansible_version: 2.0
+  platforms:
+    - name: Ubuntu
+    - trusty
   categories:
     - system
 dependencies: []
